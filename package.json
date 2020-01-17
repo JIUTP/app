@@ -15,7 +15,7 @@
     "genlog": "conventional-changelog -p angular -i .github/CHANGELOG.md -s"
   },
   "config": {
-    "commitizen":{
+    "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
@@ -70,6 +70,8 @@
     "postcss-loader": "^2.0.8",
     "postcss-url": "^7.2.1",
     "rimraf": "^2.6.0",
+    "sass": "^1.24.5",
+    "sass-loader": "^8.0.2",
     "selenium-server": "^3.0.1",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
