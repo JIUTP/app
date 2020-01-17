@@ -11,7 +11,13 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "genlog": "conventional-changelog -p angular -i .github/CHANGELOG.md -s"
+  },
+  "config": {
+    "commitizen":{
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "dependencies": {
     "vue": "^2.5.2",
