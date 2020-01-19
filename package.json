@@ -20,6 +20,9 @@
     }
   },
   "dependencies": {
+    "axios": "^0.19.1",
+    "lib-flexible": "^0.3.2",
+    "qs": "^6.9.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
@@ -69,6 +72,7 @@
     "postcss-import": "^11.0.0",
     "postcss-loader": "^2.0.8",
     "postcss-url": "^7.2.1",
+    "px2rem-loader": "^0.1.9",
     "rimraf": "^2.6.0",
     "sass": "^1.24.5",
     "sass-loader": "^8.0.2",
