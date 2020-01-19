@@ -1,4 +1,8 @@
 one test
 two test
 three test
-five test test
+<<<<<<< HEAD
+five test 
+=======
+four test
+>>>>>>> feature1
