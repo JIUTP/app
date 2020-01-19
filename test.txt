@@ -1,8 +1,4 @@
 one test
 two test
 three test
-<<<<<<< HEAD
-five test 
-=======
-four test
->>>>>>> feature1
+aaa
